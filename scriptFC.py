@@ -6,7 +6,7 @@ import os
 st.set_page_config(page_title="Dashboard de Fluxo de Caixa", layout="wide")
 st.title("📊 Painel de Fluxo de Caixa por Obras")
 
-CAMINHO_DO_EXCEL = r"C:\Users\marce\OneDrive\Documentos\VPP Construtora\Projeto Analises\BaseFI.xlsx"
+CAMINHO_DO_EXCEL = "BaseFI.xlsx"
 NOME_DA_ABA = "baseFC"  
 NOVA_COLUNA_DETALHE = "Fornecedor"  
 
